@@ -3,7 +3,7 @@ float random_number = 0;
 PFont f;
 int r;
 int g;
-
+int b;
 void setup() {
   fullScreen();
   textAlign(CENTER);
@@ -11,7 +11,7 @@ void setup() {
 }
 
 void draw() {
-  background(r, g, 0);
+  background(r, g, b);
   noFill();
   stroke(255);
   strokeWeight(10);
@@ -28,14 +28,18 @@ void draw() {
       textFont(f, 100);
       fill(255);
       text("Yes", width / 2, height / 2);
-      g = (150);
-      r = 0;
+      r = 73;
+      g = 188;
+      b = 82;
+      //rgb(73, 188, 82)
     } else if (random_number <= 50 && random_number > 0) {
       textFont(f, 100);
       fill(255);
       text("No", width / 2, height / 2);
-      r = (200);
-      g = 0;
+      r = 219;
+      g = 82;
+      b = 77;
+      //rgb(219, 82, 77)
     }
   }
 
