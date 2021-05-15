@@ -6,4 +6,4 @@ TODO
 2. resolutie even kijken of dat iets kleiner kan als standaard setup ding
 3. even door Prettier in VScode want  dat ziet er mooi uit ja man
 UPDATE:
-Ik kan die app downloaden via releases nu die hier rechts staat
+Ik kan die app downloaden via releases nu die hier rechts staat apk. ding
